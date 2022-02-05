@@ -14,6 +14,7 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.lln.nikki.avatar.R;
 import com.lln.nikki.avatar.model.Avatar;
 import com.lln.nikki.avatar.util.AvatarUtils;
+import com.lln.nikki.avatar.view.bigimage.BigImageShowHelper;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -91,7 +92,7 @@ public class AvatarShowAdapter extends RecyclerView.Adapter<AvatarShowAdapter.Av
         }
 
         private void avatarShowClick(View view) {
-            BigImageShowHelper.showImage(mContext, mAvatarList.get(getAdapterPosition()).getAvatar());
+            BigImageShowHelper.showImage(mContext, mAvatarList, getAdapterPosition());
         }
 
 

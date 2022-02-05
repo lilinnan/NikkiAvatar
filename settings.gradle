@@ -4,6 +4,7 @@ dependencyResolutionManagement {
         google()
         mavenCentral()
         maven { url 'https://jitpack.io' }
+        maven { url 'https://repo.spring.io/libs-release/' }
     }
 }
 rootProject.name = "闪暖头像"
