@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="server_names">
+        <item>大陆服</item>
+        <item>台服</item>
+        <item>日服</item>
+    </string-array>
+</resources>

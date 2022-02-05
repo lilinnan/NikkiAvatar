@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.lln.nikki.avatar.view.MyLinerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/avatar_show"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@color/primary" />
+</com.lln.nikki.avatar.view.MyLinerLayout>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">闪暖头像</string>
+    <string name="please_input_your_id">请输入游戏ID</string>
+    <string name="search">查询</string>
+    <string name="searching">查询中…</string>
+    <string name="please_select_server">请选择服务器</string>
+    <string name="about">关于</string>
+    <string name="check_update">检查更新</string>
+</resources>
